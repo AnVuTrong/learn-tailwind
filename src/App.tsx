@@ -11,6 +11,7 @@ import { UserList } from './components/user-list.components/user-list.component'
 import { NotificationBell } from './components/notification.components/notification-bell.component';
 import { NotificationPopup } from './components/notification.components/notification-popup.component';
 import { NOTIFICATIONS_DATA } from './constants/notifications.constants';
+import { Subscription } from './components/subscription.components/subscription.component';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ function App() {
           <Route path='three-collection-list' element={<CollectionList />} />
           <Route path='four-review-form' element={<ReviewForm />} />
           <Route path='five-user-list' element={<UserList />} />
-          {/* <Route path='seven-subscription' element={<Subscription />} /> */}
+          <Route path='seven-subscription' element={<Subscription />} />
 
           <Route path='*' element={<NotFound />} />
         </Route>
