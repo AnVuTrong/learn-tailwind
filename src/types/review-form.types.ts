@@ -16,4 +16,4 @@ export interface StarRatingProps {
   setRating: (rating: number) => void;
   hover: number;
   setHover: (hover: number) => void;
-} 
+}
