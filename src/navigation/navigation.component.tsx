@@ -12,7 +12,7 @@ export const Navigation = () => {
                         <Link to="/one-user-card" className="text-white hover:text-blue-200">User Profile</Link>
                         <Link to="/two-search-box" className="text-white hover:text-blue-200">Search Box</Link>
                         <Link to="/three-collection-list" className="text-white hover:text-blue-200">Collection List</Link>
-                        <Link to="/four-review-modal" className="text-white hover:text-blue-200">Review Modal</Link>
+                        <Link to="/four-review-form" className="text-white hover:text-blue-200">Review Form</Link>
                         <Link to="/five-user-list" className="text-white hover:text-blue-200">User List</Link>
                         <Link to="/six-notification" className="text-white hover:text-blue-200">Notification</Link>
                         <Link to="/seven-subscription" className="text-white hover:text-blue-200">Subscription</Link>
