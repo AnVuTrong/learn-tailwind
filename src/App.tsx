@@ -9,6 +9,7 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<Navigation />}>
+        {/* This is for remote git commit test */}
         <Route index element={<Home />} />
         <Route path='one-user-card' element={<UserProfile />} />
         <Route path='two-search-box' element={<SearchBox />} />
