@@ -7,7 +7,6 @@ export const navigationLinks: NavigationLink[] = [
   { path: '/three-collection-list', label: 'Collection List' },
   { path: '/four-review-form', label: 'Review Form' },
   { path: '/five-user-list', label: 'User List' },
-  { path: '/six-notification', label: 'Notification' },
   { path: '/seven-subscription', label: 'Subscription' },
   { path: '/eight-job-card', label: 'Job Card' },
   { path: '/nine-company-list', label: 'Company List' },
