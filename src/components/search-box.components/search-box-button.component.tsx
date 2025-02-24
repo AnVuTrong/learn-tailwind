@@ -4,15 +4,18 @@ import { ButtonProps } from '../../types/types';
 export const SearchBoxButton: React.FC<ButtonProps> = ({ button, onClick }) => {
   return (
     <button 
-      className='flex items-center gap-2 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors'
+      className='flex items-center gap-2 p-3 rounded-lg border border-[#673d80] hover:opacity-80 transition-colors'
       onClick={onClick}
+      style={{ 
+        backgroundColor: button.bgColor,
+      }}
     >
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className='size-5 text-[#8222ff]'
+        className='size-5'
         viewBox='0 0 24 24'
         fill='none'
-        stroke='currentColor'
+        stroke='#673d80'
         strokeWidth='2'
       >
         <path
@@ -21,7 +24,7 @@ export const SearchBoxButton: React.FC<ButtonProps> = ({ button, onClick }) => {
           d={button.icon}
         />
       </svg>
-      <span className='text-sm'>{button.label}</span>
+      <span className='text-sm text-[#673d80]'>{button.label}</span>
     </button>
   );
 }; 
