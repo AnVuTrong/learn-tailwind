@@ -4,7 +4,7 @@ import { ButtonProps } from '../../types/types';
 export const SearchBoxButton: React.FC<ButtonProps> = ({ button, onClick }) => {
   return (
     <button 
-      className='flex items-center gap-2 p-3 rounded-lg border border-[#673d80] hover:opacity-80 transition-colors'
+      className='flex items-center gap-2 p-3 rounded-lg border border-[#673d80] hover:opacity-80 transition-colors shadow-md'
       onClick={onClick}
       style={{ 
         backgroundColor: button.bgColor,
