@@ -9,6 +9,6 @@ export const navigationLinks: NavigationLink[] = [
   { path: '/five-user-list', label: 'User List' },
   { path: '/seven-subscription', label: 'Subscription' },
   { path: '/eight-jobs-list', label: 'Jobs List' },
-  { path: '/nine-company-list', label: 'Company List' },
+  { path: '/nine-company-account', label: 'Company Account' },
   { path: '/ten-landing-page', label: 'Landing Page' }
 ]; 

@@ -13,6 +13,8 @@ import { NotificationPopup } from './components/notification.components/notifica
 import { NOTIFICATIONS_DATA } from './constants/notifications.constants';
 import { Subscription } from './components/subscription.components/subscription.component';
 import { JobsList } from './components/job-card.components/jobs-list.component';
+import { CompanyAccount } from './components/company-account.components/company-account.component';
+
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [notifications, setNotifications] = useState(NOTIFICATIONS_DATA);
@@ -38,6 +40,7 @@ function App() {
           <Route path='five-user-list' element={<UserList />} />
           <Route path='seven-subscription' element={<Subscription />} />
           <Route path='eight-jobs-list' element={<JobsList />} />
+          <Route path='nine-company-account' element={<CompanyAccount />} />
           <Route path='*' element={<NotFound />} />
         </Route>
       </Routes>
