@@ -8,7 +8,7 @@ export const navigationLinks: NavigationLink[] = [
   { path: '/four-review-form', label: 'Review Form' },
   { path: '/five-user-list', label: 'User List' },
   { path: '/seven-subscription', label: 'Subscription' },
-  { path: '/eight-job-card', label: 'Job Card' },
+  { path: '/eight-jobs-list', label: 'Jobs List' },
   { path: '/nine-company-list', label: 'Company List' },
   { path: '/ten-landing-page', label: 'Landing Page' }
 ]; 
